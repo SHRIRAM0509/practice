@@ -1,0 +1,86 @@
+bg {
+	background-origin:content-box;
+    border: 1px solid green ;
+    border-style : none;
+    
+    background-image:url('/home/shriram/Desktop/Practice/mosaic2.jpg');
+    height:auto;
+	width: auto;
+}
+
+body{
+	background-image:url('/home/shriram/Desktop/Practice/mosaic.jpg');
+}
+h1 {	
+    color: black;
+    font-family : "helvetica	";
+    font-size=10px;
+    height:30px;
+	width: 500px;
+	border: 1px lightblue ;
+	border-style : dotted;
+	border-width : 2px 1px;
+	border-origin:content-box;
+	margin-left: 0%;
+	margin-top: 0%;
+	padding : 5px;
+
+    }
+
+#form_login {
+    left: 48%;
+    top: 32%;
+    margin-left: -10%;
+    height:65%;
+    width:25%;
+    position: absolute;
+    margin-top: -10%;
+    background:crimson;
+}
+
+.boxed1 {
+	border-origin:content-box;
+	margin-left: 28%;
+	margin-top: 5%;
+	padding : 5px;
+	font-size : 20px;
+	font-family : serif;
+	text-color:white;
+	font-style:bold,italic;
+	height:20px;
+	width: 140px;
+	border: 1px blue ;
+	border-style : none;
+	border-width : 2px 1px;
+	background : pink;
+	border-align : center;
+}
+.boxed2 {
+	border-origin:content-box;
+	margin-left: 28%;
+	margin-top: 12%;
+	padding : 5px;
+	font-size : 20px;
+	font-family : serif;
+	height:20px;
+	width: 140px;
+	border: 1px solid blue ;
+	border-style : none;
+	border-width : 2px 1px;
+	background : magenta;
+	align: center;
+}
+
+ul {
+ list-style-type: none;
+ margin-left: -10%;
+ margin-top: 10%;
+ }
+
+ #male {
+  margin-left: -5%;
+ margin-top: 10%;
+}
+
+
+
