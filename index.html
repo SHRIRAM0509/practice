@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>                    
+
+	<style>
+
+
+		@font-face {
+			  font-family: 'Share Tech Mono';
+			  font-style: normal;
+			  font-weight: 400;
+			  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v7/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2) format('woff2');
+			  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+
+	body, html{
+				background-color: black;
+				font-family: "Share Tech Mono", monospace;
+				color: white;
+				padding: 0;
+				margin: 0;
+			}
+			
+			body{
+				width: 100%;
+				height:75%;
+				margin: 2.5% 2.4%;
+				padding-bottom: 5%;
+				border: 5px dashed yellow;
+				overflow-x: hidden;
+			}
+
+#h1class{
+
+		left: 20%;
+	    margin-left:-5%;
+	    max-height: auto;
+	    width:75%;
+	    position: absolute;
+	    border: 3px white;
+	    padding:1px;
+	    background-color: black;
+	    border-style:dashed;
+	    border-radius: 8px;
+}
+
+
+	.button{
+		height: 50%;
+		background-color: black;
+		border:4px solid white;
+		padding:10px;
+		text-align: center;
+		color:white;
+		border-radius: 2px;
+		box-shadow: red;
+		font-size: 56px;
+		margin:4px 2px;
+	}
+			
+	.button:hover {
+		border-radius: 56px;
+		border:none;
+		background-color: red;
+	
+	}
+
+	input[type=checkbox]{
+		height: 40px;
+		width:40px;
+		color:blue;
+	}
+	input[type=text],input[type=email],input[type=number] {
+		text-align: left;
+		margin-top: 0%
+		height: 40px;
+		width:26%;
+		margin-left: 20%;
+		background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+    	transition: width 0.2s;
+	}
+
+	input[type=text]:hover,input[type=email]:hover,input[type=number]:hover {
+		width:75%;
+	}
+
+	td{
+		text-align:left;
+		font-size: 48px;
+	}
+
+	#container {
+		width: 1024px;
+		margin: 0px auto;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="number"],
+	select:focus,
+	textarea {
+	  font-size: 16px;
+	}
+
+	</style>
+
+
+
+</head>
+
+<title>INTERRUPT'18</title>
+
+<body>
+	<pre><span id="title" style="font-size: 2vw" >                            
+	  _____       _                             _     ___  _   __  ___   
+	 |_   _|     | |                           | |   |__ \| | /_ |/ _ \  
+	   | |  _ __ | |_ ___ _ __ _ __ _   _ _ __ | |_     ) | | _| | (_) | 
+	   | | | '_ \| __/ _ \ '__| '__| | | | '_ \| __|   / /| |/ / |> _ <  
+	  _| |_| | | | ||  __/ |  | |  | |_| | |_) | |_   / /_|   <| | (_) | 
+	 |_____|_| |_|\__\___|_|  |_|   \__,_| .__/ \__| |____|_|\_\_|\___/  
+	                                     | |                             
+	                                     |_|                             
+		</span></pre>
+
+    
+	<div id="container">
+<!-- -------------signup form---------------- -->
+
+	<form action="https://www.google.co.in/" method = "post" align="center">
+
+<!--------------h1--------------->
+	<div id="h1class">
+		<h1 style="font-size: 64xpx;font-size: 'Share Tech Mono';"> Don't Miss The Goodies 👉 SIGNUP 👇</hi>
+	</div>
+
+
+	
+	<br><br><br><br>
+<!------------------- txtbox 1---------------------->
+	<table align="center">
+	<tr><td><br></td><td><br></td></tr>
+	<!-- <p class="box1 -->
+
+	<tr><td><font color="yellow" size="64x" face="'Share Tech Mono'"> NAME :</font></td>
+
+	<td><input class="textbox" type="text" name="name" required="required" placeholder="Name" style="background-color: black;border-style:solid;border-width: 2px;border-color: white;border-radius: 50px;color:cyan;font-size: 32px;" height="60px"></td></tr>
+	<tr><td><br></td><td><br></td></tr>
+
+
+	<tr><td><font color="yellow" size="64x" face="'Share Tech Mono'"> COLLEGE :</font></td>
+
+	<td><input class="textbox" type="text" name="college" required="required" placeholder="College" style="background-color: black;border-style:solid;border-width: 2px;border-color: white;border-radius: 50px;color:cyan;font-size: 32px;" height="60px"></td></tr>
+	<tr><td><br></td><td><br></td></tr>
+
+
+
+		<!------------------------txtbox 2--------------------------->
+
+	<tr><td><font color="yellow" size="64px" face:'Share Tech Mono'>EMAIL :</font></td>
+
+	<td><input class="textbox" type="email" name="email" required="required" placeholder="Mail id" style="background-color: black;border-style:solid;border-width: 2px;border-color: white;border-radius: 50px;color:cyan;font-size: 32px;" height="60px"></td></tr>
+
+	<tr><td><br></td><td><br></td></tr>
+<!------------------------txtbox 3----------------------------->
+
+
+	<tr><td><font color="yellow" size="36px" face="'Share Tech Mono'">CONTACT :</font></td>
+
+	<td><input class="textbox" type="number" name="contact" required="required" placeholder="Mobile" style="background-color: black;border-style:solid;border-width: 2px;border-color: white;border-radius: 50px;color:cyan;font-size: 32px;" height="60px">	</td></tr>
+	</table>
+
+	<!-- ------------------ the form elements are put in a td tag for alignment------------ -->
+
+	<font color="green" size="6.5px" face="'Share Tech Mono'">
+	<p align="left" style="margin-left: 8%">Select the events you'd like to participate:</p>
+	</font>
+   </align>
+ 
+	<!-- -------------------------------events------------------------- -->
+
+	<font color="lightblue" face="'Share Tech Mono'">
+	<table style=" margin-left: 8%;margin-top: 0%;" align="center">
+		<span style="background-color: black">
+		<tr><td><input type="checkbox" name="adzap">Adzap</td></span><td>&nbsp;&nbsp;&nbsp;</td><td><input type="checkbox" name="dumbc">Dumbc</td></tr>
+		<tr><td><input type="checkbox" name="webdev">Webdev</td><td>&nbsp;&nbsp;&nbsp;</td><td><input type="checkbox" name="shipwreck">shipwreck</td></tr>
+		<tr><td><input type="checkbox" name="paper">Fifa</td><td>&nbsp;&nbsp;&nbsp;</td><td><input type="checkbox" name="fifa">Paper Presentation</td></tr>
+		<tr><td><input type="checkbox" name="quiz">Quiz</td><td>&nbsp;&nbsp;&nbsp;</td><td><input type="checkbox" name="drone">Drone-racing</td></tr>
+		<tr><td><input type="checkbox" name="junkart">Junk-art</td><td>&nbsp;&nbsp;&nbsp;</td><td><input type="checkbox" name="robotics">Robotics</td></tr>
+	</table>
+
+	</font>
+
+<br>
+
+<!----------------buttons------------------------->
+
+	<input class="button" width="100%" type="submit" name="SUBMIT" style="margin-left: -5%">
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	<input class="button" width="100%" type="reset" name="CANCEL">
+
+</form> 
+</div>
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_shriramgobuin&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
+	<script>
+		var colorNum=1;
+		window.setInterval(colorChange, 1000); //This function calls the colorChange() function every 1 second.
+
+		function colorChange(){
+			if(colorNum==1){
+				document.getElementById("title").style.color="purple";
+				colorNum=2;
+			}
+			else if(colorNum==2){
+				document.getElementById("title").style.color="blue";
+				colorNum=3;
+			}
+			else if(colorNum==3){
+				document.getElementById("title").style.color="green";
+				colorNum=4;
+			}
+			else if(colorNum==4){
+				document.getElementById("title").style.color="yellow";
+				colorNum=5;
+			}
+			else if(colorNum==5){
+				document.getElementById("title").style.color="orange";
+				colorNum=6;
+			}
+			else if(colorNum==6){
+				document.getElementById("title").style.color="red";
+				colorNum=1;
+			}
+		}
+		</script>
+</html>
